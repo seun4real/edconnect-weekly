@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Explorer</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-dark bg-primary ml-2 mr-2 mt-1">
+            <a href="#" class="navbar-brand">Project Explorer</a>
+            
+            <form class="form-inline">
+            
+            <input type="text" class="form-control mr-2" placeholder="Search Projects">
+            <button class="btn btn-outline-light"  type="submit" name="searchForm" >Search</button>
+    
+            <a href="#" class="text-white p-2">Submit</a>
+        </form>
+    
+    </div>
+        <div>
+            <a href="signup.html" class="text-white p-2">Sign up</a>
+            <a href="login.html" class="text-white p-2">Login</a>
+                </div>
+            
+        </nav>
+    </header>
+    
+        <main class="m-5">
+            <div class="mb-2">
+            
+            <h3 > Project Gallery</h3>
+        </div>
+            <div class="bg-light p-3 ">
+
+            <form name="searchForm" class=" form-row">           
+                 <input type="text" placeholder="Search project name, authors, abstract, tags" class="col-sm-6 form-control form-control-lg" name="searchTerm" required><br><br>
+
+            <label for="searchby" > Search By</label>
+
+                <div>
+            <select name="searchType" class="form-control form-control-lg">
+                <option value="Name">Name</option>
+                <option value="Abstract">Abstract</option>
+                <option value="Authors">Authors</option>
+                <option value="Tags">Tags</option>
+                
+
+            </select>
+        </div>
+
+            <button type="submit" class="btn btn-lg btn-primary ml-2">Submit</button>
+        </div>
+    </form>
+        <div class="mt-5">
+            
+            
+                <h3>All Projects<span style="color:gray; font-size: 14px;">(0 results)</span></h3>
+                <div class="container ml-0">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="card mb-3">
+                                <div class="card-body">
+                                    <a href="#" class="card-title"><strong>Project Title</strong></a>
+                                    <h6 class="card-subtitle">Author 1, Author 2</h6> 
+                                    <p class="card-text">some quick example text to build on the card title and make up
+                                        the bulk of the card content.
+                                    </p>
+                                    <a href="#" class="card-link">#html</a>
+                                    <a href="#" class="card-link">#css</a>
+                                    <a href="#" class="card-link">#javascript</a>
+    
+                                </div>
+                            </div>                   
+                        </div>
+
+                        <div class="col-md-3">
+                            <div class="card mb-3">
+                                <div class="card-body">
+                                    <a href="#" class="card-title"><strong>Project Title</strong></a>
+                                    <h6 class="card-subtitle">Author 1, Author 2</h6> 
+                                    <p class="card-text">some quick example text to build on the card title and make up
+                                        the bulk of the card content
+                                    </p>
+                                    <a href="#" class="card-link">#html</a>
+                                    <a href="#" class="card-link">#css</a>
+                                    <a href="#" class="card-link">#javascript</a>
+    
+                                </div>
+                            </div>
+                        </div>
+    
+
+
+
+                        </div>
+                        </div>
+                    </div>
+        
+
+
+                </main>
+                <footer class="bg-light p-3 mt-5 ml-5 mr-5">
+                    <p class="text-right">Project Explorer &copy; 2020. <strong>Edconnect</strong></p>
+                  </footer>
+ 
+ 
+    
+
+</body>
+</html>
